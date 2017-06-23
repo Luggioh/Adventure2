@@ -47,7 +47,7 @@ public class Variablen {
 	
 	static int BalkenX = 400, BalkenY = 300;
 	static int score = 0;
-	static boolean isRunning = true;
+	static boolean isRunning = false;
 	static boolean balkenDa = true;
 	static boolean notGameOver = true;
 	static boolean imSpiel;

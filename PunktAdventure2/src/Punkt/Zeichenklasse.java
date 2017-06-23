@@ -31,6 +31,12 @@ public class Zeichenklasse extends JLabel {
 			repaint();
 			}	
 			
-			else{}
+			else{
+				g.drawImage(Variablen.wolkig2, 0, 0, 800, 450, null);
+				g.drawImage(Variablen.gras, 0, 450, 400, 200, null);
+				g.drawImage(Variablen.gras, 400, 450, 400, 200, null);
+				g.drawImage(Variablen.i1, Variablen.punktX, Variablen.punktY, 110, 110, null);
+				repaint();
+			}
 	}
 }

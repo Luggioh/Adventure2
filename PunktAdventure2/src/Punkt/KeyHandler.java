@@ -11,6 +11,7 @@ public class KeyHandler implements KeyListener {
 
 		if(e.getKeyCode() == KeyEvent.VK_RIGHT){
 			Variablen.punktX += 10;
+			
 			if(Variablen.punktX > 400)
 				Variablen.isRunning = true;
 		}

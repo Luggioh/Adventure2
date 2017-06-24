@@ -7,8 +7,8 @@ public class Main {
 		new Gui();
 		new Variablen();
 		new HimmelMove();
-		new Grasmove();
+	//	new Grasmove();
 		new Movement();
-		
+		new MegaMan();
 	}
 }

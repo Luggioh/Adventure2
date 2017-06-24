@@ -17,6 +17,7 @@ public class Variablen {
 	static Color gold = new Color(255,215,0);   //gold
 	static Zeichenklasse jlab1;
 	static boolean coinDa = true;
+	static boolean stand = true;
 	static int wieseX1 = 0, wieseY1 = 0;
 	static int wieseX2 = 400, wieseY2 = 0;
 	static int wieseX3 = 800, wieseY3 = 0;
@@ -27,7 +28,7 @@ public class Variablen {
 	static int himmelX2 = 800, himmelY2 = 0;
 	static int muenzX = 250;
 	static int muenzenRutschen = 50;
-	
+	static int megaX1 = 0, megaX2 = 205;
 	static BufferedImage [] char1 = new BufferedImage[5];
 	static BufferedImage i1;
 	static BufferedImage i2;
@@ -38,6 +39,7 @@ public class Variablen {
 	static BufferedImage fla2;
 	static BufferedImage coin;
 	static BufferedImage wolkig1, wolkig2;
+	static BufferedImage mega1, mega2;
 	
 	static boolean zeichneMuenze = true;
 	static int flammeX = 200, flammeY = 322; 
@@ -71,6 +73,8 @@ public class Variablen {
 			Variablen.fla2 = ImageIO.read(new File("res/fla2.gif"));
 			Variablen.wolkig1 = ImageIO.read(new File("res/wolkig1.png"));
 			Variablen.wolkig2 = ImageIO.read(new File("res/wolkig2.jpg"));
+			Variablen.mega1 = ImageIO.read(new File("res/megaStand.gif"));
+			Variablen.mega2 = ImageIO.read(new File("res/megaRun.gif"));
 			Variablen.schnee = ImageIO.read(new File("res/bg_snow.jpg"));
 			Variablen.coin = ImageIO.read(new File("res/coin.gif"));
 			Variablen.gras = ImageIO.read(new File("res/grasHell.jpg"));

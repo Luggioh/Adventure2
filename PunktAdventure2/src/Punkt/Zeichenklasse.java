@@ -28,6 +28,13 @@ public class Zeichenklasse extends JLabel {
 			
 			g.drawImage(Variablen.i1, Variablen.punktX, Variablen.punktY, 110, 110, null);
 			
+			if(Variablen.stand == true){
+			g.drawImage(Variablen.mega1, Variablen.megaX1, 200, 80, 80, null);
+			}
+			else{
+			g.drawImage(Variablen.mega2, Variablen.megaX2, 200, 80, 80, null);
+			}
+			
 			repaint();
 			}	
 			
@@ -36,6 +43,7 @@ public class Zeichenklasse extends JLabel {
 				g.drawImage(Variablen.gras, 0, 450, 400, 200, null);
 				g.drawImage(Variablen.gras, 400, 450, 400, 200, null);
 				g.drawImage(Variablen.i1, Variablen.punktX, Variablen.punktY, 110, 110, null);
+
 				repaint();
 			}
 	}
